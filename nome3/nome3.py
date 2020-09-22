@@ -1,1 +1,4 @@
-teste internet gilberto
+a=input()
+print(a)
+print(a)
+print(a)
