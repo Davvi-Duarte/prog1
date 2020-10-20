@@ -1,0 +1,14 @@
+- input: |
+    2
+    11123542
+    99911111
+  output: |
+    Dígito mais frequente: 1 - Frequência: 8
+
+- input: |
+    3
+    423
+    123
+    478
+  output: |
+    Dígito mais frequente: 2 - Frequência: 2

@@ -1,13 +1,10 @@
 a=input()
-calculo1=0
-calculo2=0
-for i in range(len(a)):
-    print (i)
-    if int(a[i]) == 1:
-        if i==0:
-            calculo2 = 1
-        else:    
-            calculo1= (i) ** 2
-            calculo2= calculo1 + calculo2
-    print (calculo2)
-    print (calculo1)
+vazia="1"
+for i in range(1, len(a)):
+    if i == 5:
+        vazia += a[i]
+        vazia += "0"
+    else:
+        vazia += a[i]
+print (vazia)
+
