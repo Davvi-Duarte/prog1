@@ -21,7 +21,7 @@ for i in range(len(num)):
     elif menorext > num[i]:
         menor+=1
 print(f'Menor dos extremos: {menorext}')
-print(f'{menor} número(s) abaixo do menor')
+print(f'{menor} número(s) abaix do menor')
 print(f'{maior} número(s) acima do menor')
 
 

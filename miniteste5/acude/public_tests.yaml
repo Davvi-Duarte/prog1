@@ -1,0 +1,20 @@
+- input: |
+    100.0
+    70
+    chuva 70
+  name: test1
+  output: |
+    Açude passou a liberar água.
+    Nível: 140.00
+
+- input: |
+    100
+    50
+    demanda 50
+    demanda 50
+    afluente 190
+  name: test2
+  output: |
+    Açude passou a liberar água.
+    Nível: 190.00
+

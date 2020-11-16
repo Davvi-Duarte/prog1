@@ -1,0 +1,42 @@
+- input: |
+    3
+    5
+    1
+    7
+  output: |
+    Parcial 1:
+    menor: 5; maior: 5; média: 5.00
+    ====
+    Parcial 2:
+    menor: 1; maior: 5; média: 3.00
+    ====
+    Final:
+    menor: 1; maior: 7; média: 4.33
+- input: |
+    2
+    3
+    7
+  output: |
+    Parcial 1:
+    menor: 3; maior: 3; média: 3.00
+    ====
+    Final:
+    menor: 3; maior: 7; média: 5.00
+- input: |
+    4
+    3
+    70
+    2
+    1
+  output: |
+    Parcial 1:
+    menor: 3; maior: 3; média: 3.00
+    ====
+    Parcial 2:
+    menor: 3; maior: 70; média: 36.50
+    ====
+    Parcial 3:
+    menor: 2; maior: 70; média: 25.00
+    ====
+    Final:
+    menor: 1; maior: 70; média: 19.00
